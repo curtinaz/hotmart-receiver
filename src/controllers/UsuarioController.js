@@ -1,11 +1,5 @@
  exports.post = function (req, res,) {
    
-   let { avatar_url, name, birth, gender, services } = req.body
-
-   birth = Date.parse(req.body.birth)
-   const created_at = Date.now()
-   const id = Number(data.instructors.length + 1)
-
    data.instructors.push({
        id,
        avatar_url,
