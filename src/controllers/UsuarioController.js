@@ -2,7 +2,7 @@
 
    let data = req.body;
 
-   mes = data+20;
+   mes = data.mes+20;
 
    res.status(201).send(`Rota POST! $(mes)`);
 
