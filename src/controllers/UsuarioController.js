@@ -2,9 +2,14 @@
 
    let data = req.body;
    let mes = 0;
+
+   if (data.mes!="") {
+console.log("")
+   }
+
    mes = mes+20;
 
-   res.status(201).send('Rota POST! '+mes);
+   res.status(201).send('Rota POST! '+data);
 
 }
   
