@@ -1,22 +1,8 @@
  exports.post = function (req, res,) {
-   
-   data.instructors.push({
-       id,
-       avatar_url,
-       name,
-       gender,
-       services,
-       birth,
-       created_at
-   }) // [{...},{...}]
-
-   fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err){
-   if (err) return res.send("Write File error!")
-
-   return res.redirect(`/instructors/${id}`)
-   })
-
    res.status(201).send('Rota POST!');
+   return res.redirect(`/instructors/${id}`)
+
+
 
 }
   
