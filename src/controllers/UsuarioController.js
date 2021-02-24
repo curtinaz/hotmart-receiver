@@ -1,7 +1,7 @@
  exports.post = function (req, res,) {
 
    let data = req.body;
-
+   let mes = 0;
    mes = data.mes+20;
 
    res.status(201).send(`Rota POST! $(mes)`);
