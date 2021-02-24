@@ -1,5 +1,5 @@
  exports.post = function (req, res,) {
-   res.status(201).send('Rota POST!');
+   res.status(404).send('Rota POST!');
    return res.redirect(`/instructors/${id}`)
 
 
