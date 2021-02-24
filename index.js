@@ -6,6 +6,6 @@ app.use(cors());
 app.use(express.json());
 app.listen(3333);
 
-app.send("/", "hello world")
+app.send("hello world")
 
 console.log ("system running")
