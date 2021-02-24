@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-require('./src/Routes/index')(app); // <--- basta adicionar essa linha
+require('./src/Routes/index')(app); // <--- rotas do servidor
 
 app.use(cors());
 app.use(express.json());
