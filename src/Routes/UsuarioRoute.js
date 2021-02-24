@@ -7,3 +7,4 @@ module.exports = (app) => {
    app.get('/usuarios', UsuarioController.get);
    app.get('/usuario/:id', UsuarioController.getById);
 }
+
